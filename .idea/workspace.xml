@@ -2,52 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b36e740f-d8c8-490d-aece-0229d65cf5f0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/deeplearning/.idea/deeplearning.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Data/ThoraricSurgery.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Data/housing.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Data/iris.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Data/pima-indians-diabetes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Data/sonar.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Data/wine.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Part1/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Part1/모두의_딥러닝_파이참설치.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Part2/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Part3/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Part4/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Part5/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/부록/모두의_딥러닝_부록D.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/01_Linear_Regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/02_Data_preparation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/02_RMSE.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/03_Gradient_Descent.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/04_Multi-Linear-Regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/05_3D_Graph.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/06_Logistic_Regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/07_Multi_Logistic_Regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/08_XOR.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/09_XOR-backpropagation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/01_My_First_Deeplearning.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/02_Data_preparation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/02_Pima_Indian.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/03_Iris_Multi_Classfication.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/04-Sonar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/05_Sonar_Train_Test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/06-Sonar-Save-Model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/07_Sonar-K-fold.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/08_Wine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/09_Wine_Checkpoint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/10_Wine_Overfit_Graph.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/11_Wine_Early_Stop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/12_Wine_Check_and_Stop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/13_Boston.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/14_MNIST_Data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/15_MNIST_Simple.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/16_MNIST_Deep.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/17_RNN1_Reuters.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/17_RNN2_imdb_lstm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deep_code/01_My_First_Deeplearning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deep_code/01_My_First_Deeplearning.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +16,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Deep_code/01_My_First_Deeplearning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="390">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#90#125#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Deep_code/02_Data_preparation.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -107,6 +68,7 @@
         <option value="$PROJECT_DIR$/deep_code/12_Wine_Check_and_Stop.py" />
         <option value="$PROJECT_DIR$/deep_code/15_MNIST_Simple.py" />
         <option value="$PROJECT_DIR$/deep_code/16_MNIST_Deep.py" />
+        <option value="$PROJECT_DIR$/Deep_code/01_My_First_Deeplearning.py" />
       </list>
     </option>
   </component>
@@ -147,7 +109,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Anaconda3/envs/tutorial/python.exe" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -301,19 +264,19 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13199578" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13160677" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49833333" weight="0.32970712" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7825" weight="0.241841" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7817125" weight="0.2410314" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="8" sideWeight="0.49577615" visible="true" weight="0.32925472" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5042239" side_tool="true" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49418604" visible="true" weight="0.32847533" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50581396" side_tool="true" weight="0.32847533" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -470,10 +433,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_code/02_Data_preparation.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Deep_code/01_My_First_Deeplearning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="390">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#90#125#0" expanded="true" />
           </folding>
