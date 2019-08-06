@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b36e740f-d8c8-490d-aece-0229d65cf5f0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/deeplearning/.idea/deeplearning.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Data/ThoraricSurgery.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Data/housing.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Data/iris.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Data/pima-indians-diabetes.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Data/sonar.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Data/wine.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Part1/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Part1/모두의_딥러닝_파이참설치.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Part2/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Part3/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Part4/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/Part5/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/Lecture/부록/모두의_딥러닝_부록D.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/01_Linear_Regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/02_Data_preparation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/02_RMSE.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/03_Gradient_Descent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/04_Multi-Linear-Regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/05_3D_Graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/06_Logistic_Regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/07_Multi_Logistic_Regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/08_XOR.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_class/09_XOR-backpropagation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/01_My_First_Deeplearning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/02_Data_preparation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/02_Pima_Indian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/03_Iris_Multi_Classfication.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/04-Sonar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/05_Sonar_Train_Test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/06-Sonar-Save-Model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/07_Sonar-K-fold.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/08_Wine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/09_Wine_Checkpoint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/10_Wine_Overfit_Graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/11_Wine_Early_Stop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/12_Wine_Check_and_Stop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/13_Boston.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/14_MNIST_Data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/15_MNIST_Simple.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/16_MNIST_Deep.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/17_RNN1_Reuters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/deep_code/17_RNN2_imdb_lstm.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Deep_code/01_My_First_Deeplearning.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#90#125#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Deep_code/01_My_First_Deeplearning.py" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/deep_code/00_MNIST.py" />
+        <option value="$PROJECT_DIR$/deep_code/01_My_First_Deeplearning.py" />
+        <option value="$PROJECT_DIR$/dataset/kospi.csv" />
+        <option value="$PROJECT_DIR$/deep_code/17_RNN_kospi.py" />
+        <option value="$PROJECT_DIR$/deep_code/17_imdb_lstm1.py" />
+        <option value="$PROJECT_DIR$/deep_code/17_Reuters.py" />
+        <option value="$PROJECT_DIR$/deep_code/17_imdb_lstm.py" />
+        <option value="$PROJECT_DIR$/deep_code/02_Pima_Indian.py" />
+        <option value="$PROJECT_DIR$/deep_code/03_Iris_Multi_Classfication.py" />
+        <option value="$PROJECT_DIR$/deep_code/04-Sonar.py" />
+        <option value="$PROJECT_DIR$/deep_code/05_Sonar_Train_Test.py" />
+        <option value="$PROJECT_DIR$/deep_code/06-Sonar-Save-Model.py" />
+        <option value="$PROJECT_DIR$/deep_code/07_Sonar-K-fold.py" />
+        <option value="$PROJECT_DIR$/deep_code/08_Wine.py" />
+        <option value="$PROJECT_DIR$/deep_code/09_Wine_Checkpoint.py" />
+        <option value="$PROJECT_DIR$/deep_code/10_Wine_Overfit_Graph.py" />
+        <option value="$PROJECT_DIR$/deep_code/11_Wine_Early_Stop.py" />
+        <option value="$PROJECT_DIR$/deep_code/12_Wine_Check_and_Stop.py" />
+        <option value="$PROJECT_DIR$/deep_code/15_MNIST_Simple.py" />
+        <option value="$PROJECT_DIR$/deep_code/16_MNIST_Deep.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="362" />
+    <option name="width" value="960" />
+    <option name="height" value="1034" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Python_Deep_Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Deep_Learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Deep_Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Deep_Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Deep_code" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/Anaconda3/envs/tutorial/python.exe" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.01_My_First_Deeplearning">
+    <configuration name="01_My_First_Deeplearning" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deeplearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Deep_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Deep_code/01_My_First_Deeplearning.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="07_Sonar-K-fold" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deeplearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_code/07_Sonar-K-fold.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="17_Reuters" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deeplearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Taeho\PycharmProjects\deeplearning\deep_code\17_RNN1_Reuters.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="17_imdb_lstm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deeplearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Taeho\PycharmProjects\deeplearning\deep_code\17_RNN2_imdb_lstm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="17_imdb_lstm1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deeplearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_code/17_imdb_lstm1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.01_My_First_Deeplearning" />
+      <item itemvalue="Python.07_Sonar-K-fold" />
+      <item itemvalue="Python.17_Reuters" />
+      <item itemvalue="Python.17_imdb_lstm1" />
+      <item itemvalue="Python.17_imdb_lstm" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.01_My_First_Deeplearning" />
+        <item itemvalue="Python.07_Sonar-K-fold" />
+        <item itemvalue="Python.17_imdb_lstm" />
+        <item itemvalue="Python.17_Reuters" />
+        <item itemvalue="Python.17_imdb_lstm1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b36e740f-d8c8-490d-aece-0229d65cf5f0" name="Default" comment="" />
+      <created>1505185891199</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505185891199</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13199578" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49833333" weight="0.32970712" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7825" weight="0.241841" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="8" sideWeight="0.49577615" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5042239" side_tool="true" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Deep_code/13_Boston.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_code/00_MNIST.py" />
+    <entry file="file://$PROJECT_DIR$/dataset/kospi.csv" />
+    <entry file="file://$PROJECT_DIR$/deep_code/17_RNN_kospi.py" />
+    <entry file="file://$PROJECT_DIR$/deep_code/17_imdb_lstm1.py" />
+    <entry file="file://$PROJECT_DIR$/Deep_code/02_Pima_Indian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_code/03_Iris_Multi_Classfication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_code/04-Sonar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_code/05_Sonar_Train_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_code/06-Sonar-Save-Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_code/08_Wine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_code/17_RNN1_Reuters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_code/17_RNN2_imdb_lstm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_code/09_Wine_Checkpoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_code/16_MNIST_Deep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+          <folding>
+            <element signature="e#24#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_code/10_Wine_Overfit_Graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_code/11_Wine_Early_Stop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_code/12_Wine_Check_and_Stop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_code/14_MNIST_Data.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_code/15_MNIST_Simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_code/07_Sonar-K-fold.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_code/01_My_First_Deeplearning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#90#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
