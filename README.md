@@ -19,6 +19,7 @@
 
 * 원리를 쉽게 이해하고 나만의 딥러닝 모델을 만들 수 있다
 * <a href="https://www.gilbut.co.kr/book/view?bookcode=BN001909&keyword=%EB%AA%A8%EB%91%90%EC%9D%98%EB%94%A5%EB%9F%AC%EB%8B%9D&collection=GB_BOOK">모두의 딥러닝</a>
+* <a href="https://hunkim.github.io/ml/">모두를 위한 머신러닝/딥러닝 강의</a>
 
 
 ![](https://gimg.gilbut.co.kr/book/BN001909/rn_view_BN001909.jpg)
