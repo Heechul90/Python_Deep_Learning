@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b36e740f-d8c8-490d-aece-0229d65cf5f0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Lecture/Part3/chapter06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/Part3/chapter07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/Part3/chapter08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/Part3/chapter09.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deep_class/05_3D_Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deep_class/05_3D_Graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture/Part2/chapter04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture/Part2/chapter04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture/Part3/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture/Part2/chapter05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture/Part1/chapter02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture/Part1/모두의_딥러닝_파이참설치.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture/Part2/chapter03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture/Part2/chapter04.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture/Part2/chapter05.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture/Part3/chapter06.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture/Part3/chapter07.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture/Part3/chapter08.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture/Part3/chapter09.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture/Part4/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture/Part5/test.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python_Crawling" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
