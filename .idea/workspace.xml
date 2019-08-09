@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b36e740f-d8c8-490d-aece-0229d65cf5f0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Lecture/Part4(딥러닝 기본기 다지기)/chapter11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/Part4(딥러닝 기본기 다지기)/chapter12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/Part4(딥러닝 기본기 다지기)/chapter13.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture/Part1/chapter02.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture/Part1/모두의_딥러닝_파이참설치.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture/Part2/chapter03.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture/Part2/chapter04.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture/Part2/chapter05.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture/Part3/chapter06.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture/Part3/chapter07.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture/Part3/chapter08.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture/Part3/chapter09.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture/Part4/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture/Part5/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture/Part4(딥러닝 기본기 다지기)/chapter10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture/Part4(딥러닝 기본기 다지기)/chapter10.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python_Crawling" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
@@ -55,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.chapter03">
+  <component name="RunManager" selected="Python.Simulation01">
     <configuration name="01_My_First_Deeplearning" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,27 +91,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17_Reuters" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="deeplearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Taeho\PycharmProjects\deeplearning\deep_code\17_RNN1_Reuters.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="17_imdb_lstm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,6 +104,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\Taeho\PycharmProjects\deeplearning\deep_code\17_RNN2_imdb_lstm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Simulation01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deeplearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lecture/Part4(딥러닝 기본기 다지기)/Simulation(폐암환자)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lecture/Part4(딥러닝 기본기 다지기)/Simulation(폐암환자)/Simulation01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,17 +157,17 @@
     <list>
       <item itemvalue="Python.01_My_First_Deeplearning" />
       <item itemvalue="Python.07_Sonar-K-fold" />
-      <item itemvalue="Python.17_Reuters" />
       <item itemvalue="Python.17_imdb_lstm" />
       <item itemvalue="Python.chapter03" />
+      <item itemvalue="Python.Simulation01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Simulation01" />
         <item itemvalue="Python.chapter03" />
         <item itemvalue="Python.01_My_First_Deeplearning" />
         <item itemvalue="Python.07_Sonar-K-fold" />
         <item itemvalue="Python.17_imdb_lstm" />
-        <item itemvalue="Python.17_Reuters" />
       </list>
     </recent_temporary>
   </component>
