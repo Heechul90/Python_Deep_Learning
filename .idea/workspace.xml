@@ -2,13 +2,307 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b36e740f-d8c8-490d-aece-0229d65cf5f0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Homework/Wine_Quality2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/Wine_Quality3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/Wine_Quality4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/01-10.1023.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/01-6.4714.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/02-2.0813.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/02-5.2860.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/03-1.7394.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/03-2.4719.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/04-1.5474.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/04-2.1971.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/05-1.4452.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/05-2.1501.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/06-1.3764.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/06-1.9893.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/07-1.3305.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/07-1.8534.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/08-1.3000.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/08-1.7360.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/09-1.2855.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/09-1.6078.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/10-1.2767.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/10-1.4966.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/100-1.2577.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/102-1.2570.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/104-1.2565.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/107-1.2555.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/11-1.2729.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/11-1.3997.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/111-1.0601.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/111-1.2551.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/116-1.2550.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/117-1.2545.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/12-1.2721.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/12-1.3535.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/120-1.2543.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/121-1.2536.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/122-1.0599.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/123-1.0574.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/123-1.2536.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/128-1.2524.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/13-1.2694.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/13-1.3402.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/131-1.2522.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/133-1.0571.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/136-1.2518.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/139-1.0553.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/139-1.2509.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/14-1.2669.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/14-1.3274.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/147-1.2500.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/15-1.3172.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/151-1.0548.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/152-1.0546.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/153-1.2497.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/154-1.2490.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/16-1.2636.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/16-1.3095.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/164-1.2468.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/165-1.0530.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/17-1.2636.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/17-1.3060.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/172-1.0498.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/173-1.2467.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/18-1.2621.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/18-1.2992.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/186-1.2465.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/189-1.2460.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/19-1.2949.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/190-1.2459.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/196-1.2454.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/197-1.2440.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/20-1.2607.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/20-1.2932.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/200-1.2437.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/204-1.2436.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/207-1.0489.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/208-1.0478.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/208-1.2428.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/21-1.2594.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/21-1.2891.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/211-1.2419.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/216-1.2413.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/22-1.2584.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/22-1.2882.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/220-1.2403.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/227-1.2400.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/23-1.2578.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/23-1.2855.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/230-1.0477.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/230-1.2392.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/232-1.2380.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/233-1.0458.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/236-1.2368.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/239-1.2364.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/24-1.2842.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/240-1.2363.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/243-1.2361.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/244-1.2357.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/247-1.2346.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/249-1.2343.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/25-1.2828.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/251-1.0451.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/253-1.2326.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/257-1.2321.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/258-1.2316.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/26-1.2533.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/26-1.2817.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/263-1.2312.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/265-1.2292.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/267-1.2286.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/269-1.2276.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/27-1.2516.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/272-1.2263.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/275-1.2250.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/276-1.2249.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/277-1.2246.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/279-1.2236.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/28-1.2478.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/28-1.2785.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/280-1.2224.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/282-1.2217.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/283-1.2199.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/286-1.2191.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/287-1.2187.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/288-1.2179.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/29-1.2473.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/293-1.2164.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/295-1.2159.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/296-1.2137.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/299-1.2123.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/30-1.2444.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/30-1.2776.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/301-1.2120.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/302-1.2115.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/304-1.2104.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/305-1.2097.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/308-1.2076.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/31-1.2430.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/310-1.2063.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/314-1.2038.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/318-1.2012.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/32-1.2757.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/320-1.1999.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/321-1.1991.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/322-1.1989.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/324-1.1981.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/325-1.1969.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/327-1.1962.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/329-1.1943.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/33-1.2410.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/332-1.1938.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/333-1.1915.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/337-1.1886.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/338-1.1881.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/339-1.1868.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/34-1.2389.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/34-1.2734.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/340-1.1855.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/341-1.1848.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/342-1.1842.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/343-1.1838.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/344-1.1806.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/346-1.1805.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/35-1.2347.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/350-1.1795.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/351-1.1780.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/353-1.1736.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/357-1.1720.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/358-1.1718.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/359-1.1715.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/360-1.1699.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/361-1.1677.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/362-1.1671.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/363-1.1670.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/366-1.1638.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/367-1.1628.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/37-1.2335.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/37-1.2724.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/371-1.1602.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/373-1.1587.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/374-1.1581.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/375-1.1581.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/379-1.1571.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/38-1.2319.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/380-1.1557.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/383-1.1550.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/389-1.1532.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/39-1.2284.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/39-1.2715.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/390-1.1532.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/392-1.1508.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/394-1.1500.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/396-1.1481.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/40-1.2705.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/401-1.1470.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/402-1.1454.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/408-1.1431.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/409-1.1425.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/41-1.2264.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/417-1.1412.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/42-1.2254.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/42-1.2690.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/422-1.1396.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/424-1.1384.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/425-1.1366.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/43-1.2170.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/432-1.1355.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/44-1.2685.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/442-1.1349.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/445-1.1325.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/449-1.1308.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/45-1.2065.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/45-1.2682.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/450-1.1305.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/454-1.1296.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/459-1.1293.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/46-1.1979.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/462-1.1284.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/467-1.1275.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/47-1.1815.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/47-1.2671.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/474-1.1266.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/475-1.1251.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/479-1.1247.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/48-1.1666.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/482-1.1228.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/487-1.1227.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/489-1.1222.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/49-1.1559.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/49-1.2670.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/493-1.1212.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/495-1.1198.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/50-1.1486.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/50-1.2657.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/500-1.1198.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/506-1.1160.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/51-1.1353.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/51-1.2653.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/52-1.1264.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/525-1.1156.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/526-1.1142.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/53-1.1178.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/53-1.2651.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/532-1.1140.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/533-1.1111.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/54-1.1155.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/54-1.2650.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/544-1.1079.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/55-1.1122.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/56-1.1106.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/56-1.2648.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/57-1.1030.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/574-1.1022.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/58-1.2645.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/59-1.0930.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/591-1.1003.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/597-1.0989.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/599-1.0978.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/60-1.2640.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/605-1.0942.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/617-1.0914.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/62-1.0897.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/63-1.2636.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/64-1.2628.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/640-1.0888.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/68-1.2626.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/685-1.0880.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/69-1.0813.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/71-1.0807.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/71-1.2625.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/72-1.2623.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/724-1.0823.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/74-1.2610.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/76-1.0766.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/76-1.2609.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/77-1.0743.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/79-1.2609.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/80-1.0719.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/81-1.2608.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/82-1.2599.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/84-1.0667.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/87-1.2592.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/90-1.2590.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/92-1.0640.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/92-1.2588.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/95-1.0628.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/95-1.2579.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/96-1.0617.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Model1/97-1.0609.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Wine_Quality1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Wine_Quality1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,14 +317,62 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Deep_code/01_My_First_Deeplearning.py" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Homework/Wine_Quality4.py" />
+        <option value="$PROJECT_DIR$/Homework/Wine_Quality3.py" />
+        <option value="$PROJECT_DIR$/Homework/Wine_Quality2.py" />
+        <option value="$PROJECT_DIR$/Homework/Wine_Quality1.py" />
+        <option value="$PROJECT_DIR$/이희철/Wine_Quality1.py" />
+        <option value="$PROJECT_DIR$/이희철/Wine_Quality2.py" />
+        <option value="$PROJECT_DIR$/이희철/Wine_Quality3.py" />
+        <option value="$PROJECT_DIR$/이희철/Wine_Quality4.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1172" />
+    <option name="height" value="1041" />
+  </component>
   <component name="ProjectId" id="1P5XQxCsOylWYEIz9UD3mgscblI" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Python_Deep_Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Deep_Learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Deep_Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Deep_Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="이희철" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Homework" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Heechul\Python_Deep_Learning\Homework" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -154,8 +496,8 @@
       <item itemvalue="Python.01_My_First_Deeplearning" />
       <item itemvalue="Python.07_Sonar-K-fold" />
       <item itemvalue="Python.17_imdb_lstm" />
-      <item itemvalue="Python.chapter03" />
       <item itemvalue="Python.Simulation01" />
+      <item itemvalue="Python.chapter03" />
     </list>
     <recent_temporary>
       <list>
@@ -180,17 +522,132 @@
     </task>
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1172" height="1041" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26152483" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295583" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3295583" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/이희철/Wine_Quality3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/이희철/Wine_Quality4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/이희철/Wine_Quality2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/Wine_Quality1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+          <folding>
+            <element signature="e#22#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/Wine_Quality2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+          <folding>
+            <element signature="e#22#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/Wine_Quality3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+          <folding>
+            <element signature="e#22#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/Wine_Quality4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="111" column="30" selection-start-line="108" selection-end-line="120" selection-end-column="10" />
+          <folding>
+            <element signature="e#22#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/이희철/Wine_Quality1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#22#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

@@ -34,14 +34,12 @@ else:
 
 
 
-# seed 값 설정
-seed = 0
-np.random.seed(seed)
-tf.set_random_seed(seed)
 
 # 데이터 불러오기
 df_pre = pd.read_csv('Homework/wine.csv', header = None)
 df = df_pre.sample(frac = 1)
+df.head()
+df.info()
 
 dataset = df.values
 X = dataset[:, :12]
@@ -49,14 +47,22 @@ Y = dataset[:, 12]
 
 # Y값을 0,1로 바꾸기
 from keras.utils import np_utils
-Y_encoded = np_utils.to_categorical(Y)
+Y_encoded = np_utils.to_categorical(Y, 11)
+
+# seed 값 설정
+seed = 0
+np.random.seed(seed)
+tf.set_random_seed(seed)
 
 # 모델 설정
+# 60, input=12, relu
+# 30, relu
+# node= 11, softmax
+
 model = Sequential()
-model.add(Dense(120, input_dim = 12, activation = 'relu'))
-model.add(Dense(60, activation = 'relu'))
+model.add(Dense(60, input_dim = 12, activation = 'relu'))
 model.add(Dense(30, activation = 'relu'))
-model.add(Dense(10, activation = 'softmax'))
+model.add(Dense(11, activation = 'softmax'))
 
 # 모델 컴파일
 model.compile(loss = 'categorical_crossentropy',
@@ -75,7 +81,6 @@ checkpointer = ModelCheckpoint(filepath = modelpath,
                                verbose = 1,
                                save_best_only = True)
 
-
 ##################### Best model ##########################
 # 학습 자동 중단 설정
 early_stopping_callback = EarlyStopping(monitor = 'val_loss',
@@ -83,16 +88,18 @@ early_stopping_callback = EarlyStopping(monitor = 'val_loss',
 
 # 모델 실행
 model.fit(X, Y_encoded,
-          validation_split = 0.2,
-          epochs = 1000,
-          batch_size = 100,
+          validation_split = 0.3,
+          epochs = 2000,
+          batch_size = 500,
           callbacks = [early_stopping_callback, checkpointer])
 
+# 결과 출력
+print('\n Accuracy: %.4f' % (model.evaluate(X, Y_encoded)[1]))
 
 ########################### 그래프 ############################
 # 모델 실행 및 저장
 history = model.fit(X, Y_encoded,
-                    validation_split = 0.33,
+                    validation_split = 0.3,
                     epochs = 2000,
                     batch_size = 500)
 
@@ -108,10 +115,10 @@ plt.plot(x_len, y_vloss, 'o', c = 'red', markersize = 3)
 plt.plot(x_len, y_acc, 'o', c = 'blue', markersize = 3)
 plt.xlabel('에포크')
 plt.ylabel('정확도')
+plt.title('Model1')
 plt.show()
 
 
-# 결과 출력
-print('\n Accuracy: %.4f' % (model.evaluate(X, Y_encoded)[1]))
+
 
 
