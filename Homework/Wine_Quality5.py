@@ -37,7 +37,8 @@ else:
 
 # 데이터 불러오기
 df_pre = pd.read_csv('Homework/wine.csv', header = None)
-df = df_pre.sample(frac = 1)
+
+df = df_pre.sample(frac = 0.15)
 df.head()
 df.info()
 
@@ -55,15 +56,15 @@ np.random.seed(seed)
 tf.set_random_seed(seed)
 
 # 모델 설정
-# 60, input=12, relu
-# 30, relu
-# 20, softplus
+# 30, input=12, relu
+# 15, relu
+# 9, relu
 # node= 11, softmax
 
 model = Sequential()
-model.add(Dense(60, input_dim = 12, activation = 'relu'))
-model.add(Dense(30, activation = 'relu'))
-model.add(Dense(20, activation = 'softplus'))
+model.add(Dense(30, input_dim = 12, activation = 'relu'))
+model.add(Dense(15, activation = 'relu'))
+model.add(Dense(9, activation = 'relu'))
 model.add(Dense(11, activation = 'softmax'))
 
 # 모델 컴파일
@@ -72,10 +73,10 @@ model.compile(loss = 'categorical_crossentropy',
               metrics = ['accuracy'])
 
 # 모델 저장 폴더 만들기
-MODEL_DIR = 'Homework/Model4/'
+MODEL_DIR = 'Homework/Model5/'
 if not os.path.exists(MODEL_DIR):
     os.mkdir(MODEL_DIR)
-modelpath = 'Homework/Model4/{epoch:02d}-{val_loss:.4f}.hdf5'
+modelpath = 'Homework/Model5/{epoch:02d}-{val_loss:.4f}.hdf5'
 
 # 모델 업데이트 및 저장
 checkpointer = ModelCheckpoint(filepath = modelpath,
@@ -90,8 +91,8 @@ early_stopping_callback = EarlyStopping(monitor = 'val_loss',
 
 # 모델 실행
 model.fit(X, Y_encoded,
-          validation_split = 0.3,
-          epochs = 2000,
+          validation_split = 0.33,
+          epochs = 3500,
           batch_size = 500,
           verbose=0,
           callbacks = [early_stopping_callback, checkpointer])
@@ -102,9 +103,12 @@ print('\n Accuracy: %.4f' % (model.evaluate(X, Y_encoded)[1]))
 ########################### 그래프 ############################
 # 모델 실행 및 저장
 history = model.fit(X, Y_encoded,
-                    validation_split = 0.3,
-                    epochs = 2000,
+                    validation_split = 0.33,
+                    epochs = 3500,
                     batch_size = 500)
+
+# 결과 출력
+print('\n Accuracy: %.4f' % (model.evaluate(X, Y_encoded)[1]))
 
 # y_vloss 에 테스트셋으로 실험 결과의 오차 값을 저장
 y_vloss = history.history['val_loss']

@@ -93,6 +93,7 @@ model.fit(X, Y_encoded,
           validation_split = 0.3,
           epochs = 2000,
           batch_size = 500,
+          verbose=0,
           callbacks = [early_stopping_callback, checkpointer])
 
 # 결과 출력
