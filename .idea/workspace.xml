@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b36e740f-d8c8-490d-aece-0229d65cf5f0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Homework/Wine_Quality5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Test4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Wine_Quality1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Wine_Quality1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Wine_Quality2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Wine_Quality2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Wine_Quality3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Wine_Quality3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Wine_Quality4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Wine_Quality4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Homework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
