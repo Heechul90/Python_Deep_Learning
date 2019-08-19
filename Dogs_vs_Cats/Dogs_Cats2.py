@@ -125,7 +125,7 @@ model = Sequential([
     Flatten(),
     Dense(512, activation = 'relu'),
     Dropout(.5),
-    Dense(N_CLASSES, activation = 'softmax')
+    Dense(N_CLASSES, activation = 'sigmoid')
 ])
 
 print('The model was created by following config:')
