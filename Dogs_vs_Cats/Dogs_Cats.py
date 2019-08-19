@@ -1,143 +1,163 @@
-### Dogs vs Cats
+# Dogs vs Cats
 # Kaggle Dataset의 일부를 이용한 개, 고양이 구분
 # Dog Image: 1,111개, Cat Image: 1,111개, 총 2,222개
 # 출처: pontoregende GitHub
 
-# 필요한 라이브러리
-import os, cv2, re, random
+# 함수 준비하기
+from keras.preprocessing import image
+from glob import glob
+import cv2, os, random
 import numpy as np
-import pandas as pd
-from keras.preprocessing.image import ImageDataGenerator
-from keras.preprocessing.image import img_to_array, load_img
-from keras import layers, models, optimizers
-from keras import backend as K
-from sklearn.model_selection import train_test_split
+import matplotlib.pyplot as plt
+from keras.models import Sequential
+from keras.layers.convolutional import Conv2D, MaxPooling2D
+from keras.layers.core import Dense, Flatten, Dropout
+from keras.optimizers import Adam
+from keras.utils import np_utils
+from keras.callbacks import ModelCheckpoint
 
 
-path = 'Python_Deep_Learning/Dogs_vs_Cats/train/'
-# Data dimensions and paths
-img_width = 150
-img_height = 150
-TRAIN_DIR = './Dogs_vs_Cats/train/'
-TEST_DIR = './Dogs_vs_Cats/test1/'
-train_images_dogs_cats = [TRAIN_DIR+i for i in os.listdir(TRAIN_DIR)] # use this for full dataset
-test_images_dogs_cats = [TEST_DIR+i for i in os.listdir(TEST_DIR)]
+path='./Dogs_vs_Cats/train/'
+
+## used for resize and in our model
+ROW, COL = 96, 96
+
+dogs, cats = [], []
+y_dogs, y_cats = [], []
 
 
-# Helper function to sort the image files based on the numeric value in each file name.
-def atoi(text):
-    return int(text) if text.isdigit() else text
+dog_path = os.path.join(path, 'dog.5*')
+len(glob(dog_path))
 
-def natural_keys(text):
-    return [ atoi(c) for c in re.split('(\d+)', text) ]
+## Load some our dog images (1,111 개 이미지)
+dog_path = os.path.join(path, 'dog.5*')
+for dog_img in glob(dog_path):
+    dog = cv2.imread(dog_img)
+    dog = cv2.cvtColor(dog, cv2.COLOR_BGR2GRAY)
+    dog = cv2.resize(dog, (ROW, COL))
+    dog = image.img_to_array(dog)
+    dogs.append(dog)
+print('Some dog images starting with 5 loaded')
 
-# Sort the traning set.
-# Use 1300 images each of cats and dogs instead of all 25000 to speed up the learning process.
-# Sort the test set
 
-train_images_dogs_cats.sort(key=natural_keys)
-train_images_dogs_cats = train_images_dogs_cats[0:1300] + train_images_dogs_cats[12500:13800]
+## Definition to load some our cat images (1,111 개 이미지)
+cat_path = os.path.join(path, 'cat.5*')
+for cat_img in glob(cat_path):
+    cat = cv2.imread(cat_img)
+    cat = cv2.cvtColor(cat, cv2.COLOR_BGR2GRAY)
+    cat = cv2.resize(cat, (ROW, COL))
+    cat = image.img_to_array(cat)
+    cats.append(cat)
+print('Some cat images starting with 5 loaded')
 
-test_images_dogs_cats.sort(key=natural_keys)
+classes = ['dog', 'cat']
 
-# Now the images have to be represented in numbers.
-# For this, using the openCV library read and resize the image.
-# Generate labels for the supervised learning set.
-# Below is the helper function to do so.
 
-def prepare_data(list_of_images):
-    """
-    Returns two arrays:
-        x is an array of resized images
-        y is an array of labels
-    """
-    x = []  # images as arrays
-    y = []  # labels
+plt.figure(figsize=(12,8))
+for i in range(5):
+    plt.subplot(1, 5, i+1)
+    img = image.array_to_img(random.choice(dogs))
+    plt.imshow(img, cmap=plt.get_cmap('gray'))
 
-    for image in list_of_images:
-        x.append(cv2.resize(cv2.imread(image), (img_width, img_height),
-                            interpolation=cv2.INTER_CUBIC))
+    plt.axis('off')
+    plt.title('It should be a {}.'.format(classes[0]))
+plt.show()
 
-    for i in list_of_images:
-        if 'dog' in i:
-            y.append(1)
-        elif 'cat' in i:
-            y.append(0)
-        # else:
-        # print('neither cat nor dog name present in images')
 
-    return x, y
+plt.figure(figsize=(12,8))
+for i in range(5):
+    plt.subplot(1, 5, i+1)
+    img = image.array_to_img(random.choice(cats))
+    plt.imshow(img, cmap=plt.get_cmap('gray'))
 
-# Generate X and Y using the helper function above
-# Since K.image_data_format() is channel_last, input_shape to the first keras layer will be (img_width, img_height, 3).
-# '3' since it is a color image
+    plt.axis('off')
+    plt.title('It should be a {}.'.format(classes[1]))
+plt.show()
 
-X, Y = prepare_data(train_images_dogs_cats)
-print(K.image_data_format())
 
-# Split the data set containing 2600 images into 2 parts, training set and validation set.
-# Later, you will see that accuracy and loss on the validation set will also be reported while fitting the model using training set.
+## just change the labels for 0 and  1
+y_dogs = [1 for item in enumerate(dogs)]
+y_cats = [0 for item in enumerate(cats)]
 
-# First split the data in two sets, 80% for training, 20% for Val/Test)
-X_train, X_val, Y_train, Y_val = train_test_split(X,Y, test_size=0.2, random_state=1)
 
-nb_train_samples = len(X_train)
-nb_validation_samples = len(X_val)
-batch_size = 16
+## converting everything to Numpy array to fit in our model
+## them creating a X and target file like we used to see
+## in Machine and Deep Learning models
+dogs = np.asarray(dogs).astype('float32')
+cats = np.asarray(cats).astype('float32')
+y_dogs = np.asarray(y_dogs).astype('int32')
+y_cats = np.asarray(y_cats).astype('int32')
 
-# We will be using the Sequential model from Keras to form the Neural Network.
-# Sequential Model is used to construct simple models with linear stack of layers.
 
-model = models.Sequential()
 
-model.add(layers.Conv2D(32, (3, 3), input_shape=(img_width, img_height, 3)))
-model.add(layers.Activation('relu'))
-model.add(layers.MaxPooling2D(pool_size=(2, 2)))
+## fit values between 0 and 1
+dogs /= 255
+cats /= 255
 
-model.add(layers.Conv2D(32, (3, 3)))
-model.add(layers.Activation('relu'))
-model.add(layers.MaxPooling2D(pool_size=(2, 2)))
+X = np.concatenate((dogs,cats), axis  =0)
+y = np.concatenate((y_dogs, y_cats), axis = 0)
 
-model.add(layers.Conv2D(64, (3, 3)))
-model.add(layers.Activation('relu'))
-model.add(layers.MaxPooling2D(pool_size=(2, 2)))
+len(X)
 
-model.add(layers.Flatten())
-model.add(layers.Dense(64))
-model.add(layers.Activation('relu'))
-model.add(layers.Dropout(0.5))
-model.add(layers.Dense(1))
-model.add(layers.Activation('sigmoid'))
+IMG_CHANNEL = 1
+BATCH_SIZE = 32
+N_EPOCH = 40
+VERBOSE = 2
+VALIDAION_SPLIT = .2
+OPTIM = Adam()
+N_CLASSES = len(classes)
 
-model.compile(loss='binary_crossentropy',
-              optimizer='rmsprop',
-              metrics=['accuracy'])
+## One-Hot Encoding
+y = np_utils.to_categorical(y, N_CLASSES)
+print('One-Hot Encoding done')
 
+
+## Here is our model as a CNN
+model = Sequential([
+    Conv2D(32, (3, 3), padding = 'same', input_shape = (ROW, COL, IMG_CHANNEL), activation = 'relu'),
+    Conv2D(32, (3, 3), padding = 'same', activation = 'relu'),
+    MaxPooling2D(pool_size = (2, 2)),
+    Dropout(.25),
+    Conv2D(64, (3, 3), padding = 'same', activation = 'relu'),
+    Conv2D(64, (3, 3), padding = 'same', activation = 'relu'),
+    MaxPooling2D(pool_size = (2, 2)),
+    Dropout(.25),
+    Flatten(),
+    Dense(512, activation = 'relu'),
+    Dropout(.5),
+    Dense(N_CLASSES, activation = 'sigmoid')
+])
+
+print('The model was created by following config:')
 model.summary()
 
-train_datagen = ImageDataGenerator(
-    rescale=1. / 255,
-    shear_range=0.2,
-    zoom_range=0.2,
-    horizontal_flip=True)
+model.compile(loss = 'binary_crossentropy',
+              optimizer = OPTIM,
+              metrics = ['accuracy'])
 
-val_datagen = ImageDataGenerator(
-    rescale=1. / 255,
-    shear_range=0.2,
-    zoom_range=0.2,
-    horizontal_flip=True)
 
-# Prepare generators for training and validation sets
+## to save checkpoint to use later
+checkpoint = ModelCheckpoint('Dogs_vs_Cats/Model_checkpoint/dogs_vs_cats_checkpoint.h5')
+model.fit(X, y,
+          batch_size = BATCH_SIZE,
+          epochs = N_EPOCH,
+          validation_split = VALIDAION_SPLIT,
+          verbose = VERBOSE,
+          callbacks = [checkpoint])
 
-train_generator = train_datagen.flow(np.array(X_train), Y_train, batch_size=batch_size)
-validation_generator = val_datagen.flow(np.array(X_val), Y_val, batch_size=batch_size)
+scores = model.evaluate(X, y, verbose = 2)
+print('MODEL ACCURACY\n{}: {}%'.format(model.metrics_names[1], scores[1]*100))
 
-# Start training the model!
+model_name = 'Dogs_vs_Cats/Dogs_and_Cats_1111_CNN'
+## saving architecture
+model_json = model.to_json()
+open(model_name+'.json', 'w').write(model_json)
+print('Dogs_vs_Cats/JSON saved')
 
-history = model.fit_generator(
-    train_generator,
-    steps_per_epoch=nb_train_samples // batch_size,
-    epochs=30,
-    validation_data=validation_generator,
-    validation_steps=nb_validation_samples // batch_size
-)
+
+## and the weights learned by our deep network on the training set
+model.save(model_name+'.h5', overwrite = True)
+print('.h5 saved')
+
+model.save_weights(model_name + '_weights.h5', overwrite = True)
+print('Weights saved in .h5 file')
