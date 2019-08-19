@@ -154,6 +154,7 @@ model_json = model.to_json()
 open(model_name+'.json', 'w').write(model_json)
 print('Dogs_vs_Cats/JSON saved')
 
+
 ## and the weights learned by our deep network on the training set
 model.save(model_name+'.h5', overwrite = True)
 print('.h5 saved')
