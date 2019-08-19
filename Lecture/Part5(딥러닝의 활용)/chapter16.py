@@ -217,11 +217,11 @@ model.compile(loss = 'categorical_crossentropy',
               metrics = ['accuracy'])
 
 # 모델 최적화 설정
-MODEL_DIR = 'Lecture/Part5(딥러닝의 활용)/model2/'
+MODEL_DIR = 'Lecture/Part5(딥러닝의 활용)/Model2/'
 if not os.path.exists(MODEL_DIR):
     os.mkdir(MODEL_DIR)
 
-modelpath="Lecture/Part5(딥러닝의 활용)/model2/{epoch:02d}-{val_loss:.4f}.hdf5"
+modelpath="Lecture/Part5(딥러닝의 활용)/Model2/{epoch:02d}-{val_loss:.4f}.hdf5"
 checkpointer = ModelCheckpoint(filepath = modelpath,
                                monitor = 'val_loss',
                                verbose = 1,
